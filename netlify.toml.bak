@@ -1,0 +1,8 @@
+﻿[build]
+  base = "client"
+  publish = "dist"
+  command = "npm run build"
+
+[context.production.environment]
+  # Replace with your real backend API URL (must start with https:// when using HTTPS site)
+  VITE_API_URL = "https://your-backend-url.com"
